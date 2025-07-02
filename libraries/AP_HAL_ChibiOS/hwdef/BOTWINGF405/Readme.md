@@ -1,7 +1,7 @@
 
 # BOTWINGF405 Flight Controller
 
-The BOTWINGF405 is a compact, high-performance flight controller developed for fixed-wing and FPV applications. Designed for reliability and flexibility, it integrates essential sensors and features for smooth flight and rich telemetry.
+The BOTWINGF405 is a compact, high-performance flight controller developed for fixed-wing and FPV applications. Designed for reliability and flexibility, it integrates essential sensors and features for smooth flight and rich telemetry, produced by [BOTLAB DYNAMICS](https://www.botlabdynamics.store/).
 
 
 ![BOTWINGF405 Board](Layout_top_1.png "BOTWINGF405-TOP-1")
@@ -68,6 +68,12 @@ The BOTWINGF405 is a compact, high-performance flight controller developed for f
 
 ---
 
+## Wiring Diagram
+
+![BOTWINGF405 Wiring](wiring_diagram.png)
+
+---
+
 ## UART Mapping
 
 The UARTs follow standard ArduPilot SERIAL port assignments:
@@ -87,7 +93,7 @@ The UARTs follow standard ArduPilot SERIAL port assignments:
 Two modes supported:
 
 * **SBUS Mode (Inverted):**
-  * RC signal to PB7 (uncomment timer capture line in hwdef)
+  * RC signal to PB7 
 * **CRSF/ELRS Mode:**
   * Direct USART1 TX/RX (PB6/PB7)
 
